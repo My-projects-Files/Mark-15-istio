@@ -1,6 +1,6 @@
 # This repo is used for istio setup
 
-#Istio
+## Istio
 
 it help us to control and secure how micro services talk to each other without chnaging the services themselves.
 
@@ -29,4 +29,12 @@ kubectl apply -f pod.yaml
 # we will face an error like below because of resouce quota controller, which is a default admission controller.
 Error from server (Forbidden): error when creating "pod.yaml": pods "demo-pod" is forbidden: exceeded quota: quota-demo, requested: memory=10Gi, used: memory=0, limited: memory=2Gi
 ~~~
+
+# Installation of Istio 
+
+Please follow the below link for the installation of Istio.
+~~~
+https://istio.io/latest/docs/setup/getting-started/
+~~~
+
 
